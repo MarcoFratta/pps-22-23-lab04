@@ -39,9 +39,9 @@ object SameTag:
 
     println(allMatch(l)(_ > 5)) // false
 
-    val dellXps = Item(33, "Dell XPS 15", cons("notebook", List.empty))
-    val dellInspiron = Item(34, "Dell Inspiron 13", cons("notebook", List.empty))
-    val xiaomiMoped = Item(35, "Xiaomi S1", cons("moped", Cons("notebook", cons("mobility", List.empty))))
+    val dellXps = Item(33, "Dell XPS 15", "notebook")
+    val dellInspiron = Item(34, "Dell Inspiron 13", "notebook")
+    val xiaomiMoped = Item(35, "Xiaomi S1", "moped","notebook", "mobility")
     println(unapply(ListBuilder(dellXps, dellInspiron, xiaomiMoped)))
 
     println(unapply(ListBuilder(dellXps)))
