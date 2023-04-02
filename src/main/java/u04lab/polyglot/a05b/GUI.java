@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.util.*;
 import java.awt.*;
 
-import u04lab.polyglot.Pair;
+import u04lab.polyglot.minesweeper.Pair;
 
 public class GUI extends JFrame {
 

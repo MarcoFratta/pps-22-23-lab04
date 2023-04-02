@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.util.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
-import u04lab.polyglot.Pair;
+import u04lab.polyglot.minesweeper.Pair;
 public class GUI extends JFrame {
 
     private static final long serialVersionUID = -6218820567019985015L;
